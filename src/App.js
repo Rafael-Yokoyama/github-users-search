@@ -1,11 +1,13 @@
-import Input from "./components/Input";
 
+import { BrowserRouter } from 'react-router-dom'
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-    <Input/>
-    </div>
+    <BrowserRouter>
+  
+<Routes />
+    </BrowserRouter>
   );
 }
 

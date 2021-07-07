@@ -5,6 +5,7 @@ import api from '../../services/api'
 const Input = () => {
 
     const [users, setUsers] = useState([])
+
    
  
  /*   function getAPI() {
@@ -15,9 +16,9 @@ const Input = () => {
 
    const getAPI = () => {
     if (users !== undefined) {
-      api.get(`/${users}`)
+      api.get(`/${users}/repos`)
         .then(response => console.log(response.data))
-    } 
+    }  
   }
  
 
