@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src="https://marcas-logos.net/wp-content/uploads/2020/03/GITHUB-LOGO.png" alt="Podcastr" width="200"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">	
+   <a href="https://www.linkedin.com/in/rafael-yokoyama/">
+      <img alt="Rafael Yokoyama" src="https://img.shields.io/badge/-RafaelYokoyama-000?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
 
-### `yarn start`
+  <a aria-label="">
+   <img alt="Rafael Yokoyama" src="https://img.shields.io/badge/-RafaelYokoyama-000?style=flat&logo=github&logoColor=white" />
+  </a>
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-000">
+  
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div align="center">
+  <sub>The github-users-search
+ project. Built with 💜  by
+    <a href="https://github.com/Rafael-Yokoyama">Rafael Yokoyama</a>
+  </sub>
+</div>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# :eyes: Demo Website
+ <img src="https://github.com/Rafael-Yokoyama/github-users-search/blob/master/src/.github/gif.gif">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# :computer: Technologies
+This project was made using the follow technologies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* <a href="https://reactjs.org/">React</a>    
+* <a href="https://www.javascript.com/"> JavaScript  </a> 
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> CSS  </a> 
+* <a href="https://html.com/">  HTML </a> 
+    
+     
 
-## Learn More
+# :rocket: Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Search Repositories
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/Rafael-Yokoyama/github-users-search.git
+```
 
-### Code Splitting
+### 💻 Run Web Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Install Dependencies
+$ yarn install or npm install
 
-### Analyzing the Bundle Size
+# Run Aplication
+$ yarn start or npm start 
+```
+Go to http://localhost:3000/ to see the result.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# :closed_book: License
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Made with love by [Rafael Yokoyama](https://github.com/Rafael-Yokoyama) 🚀.
+This project is under the [MIT license](./LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
