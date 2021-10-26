@@ -57,7 +57,7 @@ const UserInfo = () => {
 const Item = ({ icon, name, color, value }) => {
   return <div className="item">
     <span className={color}>{icon}</span>
-    <div>
+    <div className={color === 'yellow' && 'user-name'}>
       <h3>{value}</h3>
       <p>{name}</p>
     </div>
@@ -75,12 +75,18 @@ const Wrapper = styled.section`
 
   .item {
     border-radius: var(--radius);
-    padding: 1rem 2rem;
+    padding: 1rem 0.5rem;
     background: var(--clr-white);
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 3rem;
     align-items: center;
+    word-break: break-all;
+
+    .user-name h3 {
+      text-transform: lowercase;
+      font-size: 18px;
+    }
     span {
       width: 3rem;
       height: 3rem;
