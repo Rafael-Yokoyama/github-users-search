@@ -69,6 +69,8 @@ $ yarn start or npm start
 Go to http://localhost:3000/ to see the result.
 
 
+#  🗣Suggestions 
+If you have any suggestions or want a bug report. Thank you very much for your cooperation! 🤝
 
 # :closed_book: License
 
